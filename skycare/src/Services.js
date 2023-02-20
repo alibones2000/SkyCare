@@ -1,8 +1,12 @@
+import ServiceCards from "./ServiceCards";
+import MailList from "./MailList";
+
 function Services(){
     return(
-        <div>
-
-        </div>
+        <>
+        <ServiceCards/>
+        <MailList/>
+        </>
     )
 }
 export default Services;
