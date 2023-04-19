@@ -3,11 +3,12 @@ import delivery from './delivery.png'
 import './Services.css'
 import shot from './shot.jpg'
 import sky3 from './sky3.jpg'
+import otc from './otc.jpeg'
 
 
 function ServiceCards(){
     return(
-        <div className="cards">
+        <div className="cardss">
             <h1>Services</h1>
             <div className="cards_container">
                 <div className="cards_wrapper">
@@ -25,6 +26,11 @@ function ServiceCards(){
                           <ServiceCardItems
                         src={sky3}
                         text="Over The Counter"
+                        path='/services'
+                        />
+                           <ServiceCardItems
+                        src={otc}
+                        text="Otc Accepted"
                         path='/services'
                         />
                     </ul>

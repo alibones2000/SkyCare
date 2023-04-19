@@ -21,13 +21,13 @@ function Nav(){
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/about">About Us</a>
+          <a class="nav-link active" aria-current="page" href="/about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  href="/services">Services</a>
+          <a class="nav-link active" aria-current="page" href="/about">Contact</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="/contact">Contact</a>
+          <a class="nav-link active" aria-current="page" href="/services">Services</a>
         </li>
       </ul>
     </div>
